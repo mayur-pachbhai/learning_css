@@ -1,0 +1,46 @@
+h3{
+  color: chocolate;
+  background-color: cornflowerblue;
+  font-size: 80px;
+}
+h4{
+  color: aliceblue;
+  background-color: black;
+}
+
+h2{
+  color: crimson;
+  /* background-color: deepskyblue; */
+}
+
+h6{
+  color: blue;
+}
+.heading-color{
+  color: red;
+}
+
+.heading1{
+  color: red;
+}
+
+.heading2{
+  color: blue;
+}
+
+#heading_2{
+  color: pink;
+}
+
+.color1{
+  color: green;
+}
+
+.font_size{
+  font-size: 120px;
+}
+
+#color{
+  color: violet;
+  font-size: 20px;
+}
