@@ -1,0 +1,74 @@
+
+/* text transform */
+.t_transform_uppercase{
+  text-transform: uppercase;
+}
+
+.t_transform_lowercase{
+  text-transform: lowercase;
+}
+
+.t_transform_capitalize{
+  text-transform: capitalize;
+}
+
+/* Text Align */
+.t_center{
+  text-align: center;
+}
+
+.t_right{
+  text-align: right;
+}
+
+.t_left{
+  text-align: left;
+}
+
+/* text decoration */
+.t_decoration1{
+  text-decoration: overline;
+}
+
+.t_decoration2{
+  text-decoration: underline;
+}
+
+.t_decoration3{
+  text-decoration: line-through;
+}
+
+.text_decoration{
+  text-decoration: underline overline line-through;
+}
+
+/*Text-indent, line-height */
+.t_indent{
+  text-indent: 60px;
+}
+
+.t_lineheight{
+  line-height: 27px;
+}
+
+/* Word-space, letter-space */
+.t_letter_space{
+  letter-spacing: 10px;
+}
+
+.t_word_space{
+  word-spacing: 30px;
+}
+
+/* text Shadow  */
+.t_shadow1{
+  color: rgb(235, 128, 95);
+  text-shadow: 6px 6px 6px rgb(13, 13, 13);
+  font-size: 100px;
+}
+
+.t_shadow2{
+  color: rgb(95, 205, 235);
+  text-shadow: 6px 8px 7px rgb(239, 186, 202);
+  font-size: 100px;
+}
