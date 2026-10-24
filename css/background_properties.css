@@ -1,0 +1,10 @@
+.bg_img{
+  background-color: black;
+  background-image: url(../images/farm_image_4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.h1_color{
+  color: white;
+}

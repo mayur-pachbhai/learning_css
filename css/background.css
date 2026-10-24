@@ -1,0 +1,17 @@
+.linear{
+  height: 400px;
+  background: linear-gradient(orange,white,green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.radial{
+  height: 800px;
+  background: radial-gradient(circle,black,pink,red,yellow,green,skyblue);
+}
+
+.conic{
+  height: 800px;
+  background: conic-gradient(pink,yellow,green,skyblue);
+}

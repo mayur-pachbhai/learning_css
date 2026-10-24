@@ -1,0 +1,22 @@
+.flex-items{
+  background-color: cornflowerblue;
+  width: 300px;
+  height: 180px;
+  font-weight: 900;
+  font-size: 40px;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid red;
+  color: white; 
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+} 
