@@ -1,0 +1,35 @@
+.container1{
+  position: relative;
+  margin: 100px;
+}
+
+div{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.blue {
+  background-color: blue;
+  left: 40px;
+}
+
+.red {
+  background-color: red;
+  left: 200px;
+  z-index: 1;
+}
+
+.green {
+  background-color: green;
+  left: 360px;
+}
+
+.blue:hover{
+  z-index: 2;
+}
+
+.green:hover{
+  z-index: 2;
+}
