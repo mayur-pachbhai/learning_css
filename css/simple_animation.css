@@ -1,0 +1,85 @@
+div{
+  height: 200px;
+  width: 200px;
+  /* background-color: yellow; */
+  background-image: url("../images/farm_image_3.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  position: relative;
+  animation: movingcircle;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  /* animation-delay: 2s; */
+  /* animation-direction: alternate; */
+
+}
+
+/* @keyframes movingcircle{
+  0%{background-color: yellow; left: 0; top: 0;}
+  25%{background-color: red; left: 300px; top: 0;}
+  50%{background-color: blue; left: 300px; top: 200px;}
+  75%{background-color: green; left: 0; top: 200px;}
+  100%{background-color: yellow;left: 0; top: 0;}
+} */
+
+/* @keyframes movingcircle{
+  0%{background-color: yellow; left: 0; top: 0;}
+  25%{background-color: blue; left: 300px; top: 200px;}
+  50%{background-color: green; left: 0; top: 200px;}
+  75%{background-color: red; left: 300px; top: 0;}
+  100%{background-color: yellow;left: 0; top: 0;}
+} */
+
+@keyframes movingcircle{
+  0%{
+    background-image: url("../images/farm_image_3.jpg");
+    left: 0; 
+    top: 0;}
+
+  25%{
+    background-image: url("../images/farm_image_4.jpg");
+    left: 0; 
+    top: 0;}
+
+  50%{
+    background-image: url("../images/tomato.jpg");
+    left: 0; 
+    top: 0;}
+
+  75%{
+    background-image: url("../images/home_hero_image1.jpg");
+    left: 0; 
+    top: 0;}
+
+  100%{
+    background-image: url("../images/farm_image_3.jpg");
+    left: 0; 
+    top: 0;}
+}
+
+/* @keyframes movingcircle{
+  0%{
+    background-image: url("../images/farm_image_3.jpg");
+    left: 0; 
+    top: 0;}
+
+  25%{
+    background-image: url("../images/farm_image_4.jpg");
+    left: 300px; 
+    top: 0;}
+
+  50%{
+    background-image: url("../images/tomato.jpg");
+    left: 300px; 
+    top: 200px;}
+
+  75%{
+    background-image: url("../images/home_hero_image1.jpg");
+    left: 0; 
+    top: 200px;}
+
+  100%{
+    background-image: url("../images/farm_image_3.jpg");
+    left: 0; 
+    top: 0;}
+} */
