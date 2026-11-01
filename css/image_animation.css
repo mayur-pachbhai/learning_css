@@ -1,0 +1,21 @@
+body{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+img{
+  width: 200px;
+  box-shadow: 5px 5px 5px red;
+}
+.swing{
+  animation: swing 1.5s ease-in-out infinite alternate;
+  position: relative;
+}
+
+@keyframes swing{
+  0%{transform: rotate(30deg);}
+  100%{transform: rotate(-30deg);}
+}
